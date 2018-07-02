@@ -19,14 +19,20 @@ const dis = ((Math.pow(b , 2))-4*a*c);
         result = 'Рівняння коренів немає';
     }
     else if (dis == 0) {
-        result = 'x1,2 = ' + (-b / (2 * a));
+        result = 'x1,2 = ' (-b / (2 * a));
     }
     else if (dis > 0) {
-        result = 'x1 = ' + (-b - Math.sqrt(dis)) / (2 * a);
-        result += ';  x2 = ' + (-b + Math.sqrt(dis)) / (2 * a);
+        result = 'x1 = ' (-b - Math.sqrt(dis)) / (2 * a);
+        result += ';  x2 = ' (-b + Math.sqrt(dis)) / (2 * a);
     }
     return result;
 }
+
+
+
+
+
+
 
 
 
