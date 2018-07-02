@@ -4,11 +4,7 @@ const c = parseFloat(prompt('Enter c'));
 
 if (a == 0) {
    alert('Значення "А" не може =0');
-}
-else {
-    let result = mSquare(a, b, c);
-    alert(result);
-    
+
 }
 
 function mSquare(a, b, c) {
